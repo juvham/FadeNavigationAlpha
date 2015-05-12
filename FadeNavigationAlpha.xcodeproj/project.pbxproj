@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449AF88A1B019D690024012E /* UIImageView+fadeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AF8891B019D690024012E /* UIImageView+fadeContent.m */; };
+		44A946561B00DDC9006C1B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A946551B00DDC9006C1B83 /* main.m */; };
+		44A946591B00DDC9006C1B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A946581B00DDC9006C1B83 /* AppDelegate.m */; };
+		44A9465C1B00DDC9006C1B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A9465B1B00DDC9006C1B83 /* ViewController.m */; };
+		44A9465F1B00DDC9006C1B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A9465D1B00DDC9006C1B83 /* Main.storyboard */; };
+		44A946611B00DDC9006C1B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A946601B00DDC9006C1B83 /* Images.xcassets */; };
+		44A946641B00DDC9006C1B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A946621B00DDC9006C1B83 /* LaunchScreen.xib */; };
+		44A946701B00DDC9006C1B83 /* FadeNavigationAlphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A9466F1B00DDC9006C1B83 /* FadeNavigationAlphaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A9466A1B00DDC9006C1B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A946481B00DDC9006C1B83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A9464F1B00DDC9006C1B83;
+			remoteInfo = FadeNavigationAlpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		449AF8881B019D690024012E /* UIImageView+fadeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+fadeContent.h"; sourceTree = "<group>"; };
+		449AF8891B019D690024012E /* UIImageView+fadeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+fadeContent.m"; sourceTree = "<group>"; };
+		44A946501B00DDC9006C1B83 /* FadeNavigationAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeNavigationAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A946541B00DDC9006C1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A946551B00DDC9006C1B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44A946571B00DDC9006C1B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44A946581B00DDC9006C1B83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44A9465A1B00DDC9006C1B83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44A9465B1B00DDC9006C1B83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44A9465E1B00DDC9006C1B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A946601B00DDC9006C1B83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44A946631B00DDC9006C1B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		44A946691B00DDC9006C1B83 /* FadeNavigationAlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeNavigationAlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A9466E1B00DDC9006C1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A9466F1B00DDC9006C1B83 /* FadeNavigationAlphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeNavigationAlphaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A9464D1B00DDC9006C1B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A946661B00DDC9006C1B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A946471B00DDC9006C1B83 = {
+			isa = PBXGroup;
+			children = (
+				44A946521B00DDC9006C1B83 /* FadeNavigationAlpha */,
+				44A9466C1B00DDC9006C1B83 /* FadeNavigationAlphaTests */,
+				44A946511B00DDC9006C1B83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A946511B00DDC9006C1B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A946501B00DDC9006C1B83 /* FadeNavigationAlpha.app */,
+				44A946691B00DDC9006C1B83 /* FadeNavigationAlphaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A946521B00DDC9006C1B83 /* FadeNavigationAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				44A946571B00DDC9006C1B83 /* AppDelegate.h */,
+				44A946581B00DDC9006C1B83 /* AppDelegate.m */,
+				44A9465A1B00DDC9006C1B83 /* ViewController.h */,
+				44A9465B1B00DDC9006C1B83 /* ViewController.m */,
+				449AF8881B019D690024012E /* UIImageView+fadeContent.h */,
+				449AF8891B019D690024012E /* UIImageView+fadeContent.m */,
+				44A9465D1B00DDC9006C1B83 /* Main.storyboard */,
+				44A946601B00DDC9006C1B83 /* Images.xcassets */,
+				44A946621B00DDC9006C1B83 /* LaunchScreen.xib */,
+				44A946531B00DDC9006C1B83 /* Supporting Files */,
+			);
+			path = FadeNavigationAlpha;
+			sourceTree = "<group>";
+		};
+		44A946531B00DDC9006C1B83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A946541B00DDC9006C1B83 /* Info.plist */,
+				44A946551B00DDC9006C1B83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44A9466C1B00DDC9006C1B83 /* FadeNavigationAlphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A9466F1B00DDC9006C1B83 /* FadeNavigationAlphaTests.m */,
+				44A9466D1B00DDC9006C1B83 /* Supporting Files */,
+			);
+			path = FadeNavigationAlphaTests;
+			sourceTree = "<group>";
+		};
+		44A9466D1B00DDC9006C1B83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A9466E1B00DDC9006C1B83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A9464F1B00DDC9006C1B83 /* FadeNavigationAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A946731B00DDC9006C1B83 /* Build configuration list for PBXNativeTarget "FadeNavigationAlpha" */;
+			buildPhases = (
+				44A9464C1B00DDC9006C1B83 /* Sources */,
+				44A9464D1B00DDC9006C1B83 /* Frameworks */,
+				44A9464E1B00DDC9006C1B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeNavigationAlpha;
+			productName = FadeNavigationAlpha;
+			productReference = 44A946501B00DDC9006C1B83 /* FadeNavigationAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A946681B00DDC9006C1B83 /* FadeNavigationAlphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A946761B00DDC9006C1B83 /* Build configuration list for PBXNativeTarget "FadeNavigationAlphaTests" */;
+			buildPhases = (
+				44A946651B00DDC9006C1B83 /* Sources */,
+				44A946661B00DDC9006C1B83 /* Frameworks */,
+				44A946671B00DDC9006C1B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A9466B1B00DDC9006C1B83 /* PBXTargetDependency */,
+			);
+			name = FadeNavigationAlphaTests;
+			productName = FadeNavigationAlphaTests;
+			productReference = 44A946691B00DDC9006C1B83 /* FadeNavigationAlphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A946481B00DDC9006C1B83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GouMin;
+				TargetAttributes = {
+					44A9464F1B00DDC9006C1B83 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					44A946681B00DDC9006C1B83 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 44A9464F1B00DDC9006C1B83;
+					};
+				};
+			};
+			buildConfigurationList = 44A9464B1B00DDC9006C1B83 /* Build configuration list for PBXProject "FadeNavigationAlpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A946471B00DDC9006C1B83;
+			productRefGroup = 44A946511B00DDC9006C1B83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A9464F1B00DDC9006C1B83 /* FadeNavigationAlpha */,
+				44A946681B00DDC9006C1B83 /* FadeNavigationAlphaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A9464E1B00DDC9006C1B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A9465F1B00DDC9006C1B83 /* Main.storyboard in Resources */,
+				44A946641B00DDC9006C1B83 /* LaunchScreen.xib in Resources */,
+				44A946611B00DDC9006C1B83 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A946671B00DDC9006C1B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A9464C1B00DDC9006C1B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A9465C1B00DDC9006C1B83 /* ViewController.m in Sources */,
+				44A946591B00DDC9006C1B83 /* AppDelegate.m in Sources */,
+				449AF88A1B019D690024012E /* UIImageView+fadeContent.m in Sources */,
+				44A946561B00DDC9006C1B83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A946651B00DDC9006C1B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A946701B00DDC9006C1B83 /* FadeNavigationAlphaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A9466B1B00DDC9006C1B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A9464F1B00DDC9006C1B83 /* FadeNavigationAlpha */;
+			targetProxy = 44A9466A1B00DDC9006C1B83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A9465D1B00DDC9006C1B83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A9465E1B00DDC9006C1B83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A946621B00DDC9006C1B83 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A946631B00DDC9006C1B83 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A946711B00DDC9006C1B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44A946721B00DDC9006C1B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A946741B00DDC9006C1B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeNavigationAlpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44A946751B00DDC9006C1B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeNavigationAlpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44A946771B00DDC9006C1B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FadeNavigationAlphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeNavigationAlpha.app/FadeNavigationAlpha";
+			};
+			name = Debug;
+		};
+		44A946781B00DDC9006C1B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FadeNavigationAlphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeNavigationAlpha.app/FadeNavigationAlpha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A9464B1B00DDC9006C1B83 /* Build configuration list for PBXProject "FadeNavigationAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A946711B00DDC9006C1B83 /* Debug */,
+				44A946721B00DDC9006C1B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A946731B00DDC9006C1B83 /* Build configuration list for PBXNativeTarget "FadeNavigationAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A946741B00DDC9006C1B83 /* Debug */,
+				44A946751B00DDC9006C1B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A946761B00DDC9006C1B83 /* Build configuration list for PBXNativeTarget "FadeNavigationAlphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A946771B00DDC9006C1B83 /* Debug */,
+				44A946781B00DDC9006C1B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A946481B00DDC9006C1B83 /* Project object */;
+}
